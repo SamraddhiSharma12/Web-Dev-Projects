@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="all-btns">
+        <button onclick="showToast(successMsg)">Success</button>
+        <button onclick="showToast(errorMsg)">Error</button>
+        <button onclick="showToast(invalidMsg)">Invalid</button>
+
+    </div>
+    <div class="toastBox"></div>
+
+    <script>
+        let toastBox = document.getElementsByClassName("toastBox")[0];
+        let successMsg='<img src="check-img.png">Successfully Submitted"';
+        let errorMsg='<img src="exclamation-img.png">"Please fix the Error"';
+        let invalidMsg='<img src="x-mark.png">"Invalid input, check again"';
+
+
+        function showToast(msg){
+            let toast =document.createElement('div');
+            toast.classList.add("toast");
+            toast.innerHTML=msg;
+            toastBox.appendChild(toast);
+
+            if(msg.includes('Invalid')){
+                toast.classList.add('invalid');
+            }
+            if(msg.includes('Error')){
+                toast.classList.add('error');
+            }
+            setTimeout( ()=>{
+                toast.remove();
+            },5000);
+        }
+    </script>
+</body>
+</html>
