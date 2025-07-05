@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <h1>Responsive Navbar</h1>
+        <div class="btn-container" onclick="displayNavbar()">
+            <button></button>
+            <button></button>
+            <button></button>
+            <ul id="navbar-list">
+                <!-- List items will be added here -->
+            </ul>
+         </div>
+    </div>
+
+    <script>
+        let menuAdded=false;
+
+        function displayNavbar(){
+            const navbarList=document.querySelector("#navbar-list");
+
+            // let li=document.createElement("li");
+            // navbar.appendChild(li);
+            // li.textContent='Home';
+            // li.textContent='About';
+            // li.textContent='Projects';
+            // li.textContent='Contacts';
+            if(!menuAdded){
+            const items=['Home', 'About', 'Project', 'Contact'];
+            items.forEach(text=>{
+                const li=document.createElement("li");
+                //const navContainer=createElement("p")
+                li.textContent=text;
+                navbarList.appendChild(li);
+                navbarList.style.boxShadow='-2px 0 8px rgba(0,0,0,0.2)';
+
+            })
+             menuAdded=true;
+            }    
+        }
+    </script>
+</body>
+</html>
