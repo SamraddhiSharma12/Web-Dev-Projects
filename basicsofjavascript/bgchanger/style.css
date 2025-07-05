@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: 30px;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    height: 25%;
+    width: 25%;
+    border: 3px solid green;
+    border-radius: 20px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    gap: 10px;
+}
+#btn{
+    width: 65px;
+    height: 45px;
+    border-radius: 15px;
+    background-color: red;
+    color: beige;
+    font-weight: 700;
+}
+#btn2{
+    background-color: pink;
+    color: purple;
+    font-weight: 700;
+    width: 65px;
+    height: 45px;
+    border-radius: 15px;
+}
+button:hover{
+  border-color: blue; 
+}
