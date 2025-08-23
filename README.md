@@ -14,28 +14,28 @@ These projects demonstrate my understanding of **core programming concepts**.
 I'm excited to share my journey of exploring **JavaScript** through fun and practical projects. 🎉
 
 ---
-### FactGenerator
-A simple project to generate random facts or trivia on demand, helping users learn interesting tidbits in a fun way.
+### Fact Generator
+A simple project to generate random facts, helping users learn interesting tidbits in a fun way.
 
-### bgchanger
+### Background Changer
 A background changer application that allows users to switch the webpage background dynamically, showcasing CSS and JavaScript integration.
 
-### createnotes
+### Create Notes
 A note-taking app that lets users create, save, and manage notes directly within the browser, demonstrating DOM manipulation and local storage.
 
-### imageGenerator
+### Image Generator
 An image generator that dynamically creates images or displays random images, focusing on working with images and media elements.
 
 ### onclicknbar
 A navigation bar that responds to clicks, with interactive menu toggles or dropdowns, illustrating event handling and UI interactivity.
 
-### quizApp
+### Quiz App
 An interactive quiz application that quizzes users on various topics, emphasizing functional programming, event handling, and data structures.
 
-### thankyouPopup
+### Thankyou Popup
 A popup modal that thanks users after an action, such as submitting a form, emphasizing modal handling, overlays, and user feedback.
 
-### toastNotification
+### Notification Toaster
 A notification system that displays temporary alert messages (toasts) on the screen, useful for notifications and user alerts.
 
 
