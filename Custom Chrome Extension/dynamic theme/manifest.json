@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "Dynamic Background Theme",
+  "version": "1.0",
+  "description": "Dynamic new tab wallpapers with Google search.",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  }
+}
