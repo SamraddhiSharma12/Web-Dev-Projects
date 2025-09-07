@@ -29,10 +29,10 @@ A **custom Chrome extension** that gives your browser a refreshing look with:
 Open Google Chrome and go to:
 
 arduino
-Copy code
-chrome://extensions/
-Enable Developer mode (top right).
+2.Copy code
+3.Search bar: chrome://extensions/
+4.Enable Developer mode (top right).
 
-Click Load unpacked and select the project folder.
+5.Click Load unpacked and select the project folder.
 
 Open a new tab → 🎉 Enjoy your dynamic theme with voice search!
