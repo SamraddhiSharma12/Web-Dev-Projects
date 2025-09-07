@@ -24,14 +24,16 @@ A **custom Chrome extension** that gives your browser a refreshing look with:
 ## 🛠️ Installation  
 
 1. Clone this repository:  
-   ```bash
-   git clone https://github.com/SamraddhiSharma12/Custome Chrome Extension.git
+
 Open Google Chrome and go to:
 
 arduino
 2.Copy code
+
 3.Search bar: chrome://extensions/
+
 4.Enable Developer mode (top right).
+
 
 5.Click Load unpacked and select the project folder.
 
