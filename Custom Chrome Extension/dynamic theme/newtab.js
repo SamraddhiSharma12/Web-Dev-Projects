@@ -51,33 +51,5 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  // Image Search 
-  // When Lens button clicked → trigger file picker
-  // lensBtn.addEventListener("click", () => {
-  //   imageInput.click();
-  // });
-
-  // // When file is chosen → submit to Yandex
-  // imageInput.addEventListener("change", () => {
-  //   if (imageInput.files.length > 0) {
-  //     const file = imageInput.files[0];
-
-  //     // Create a form dynamically
-  //     const form = document.createElement("form");
-  //     form.method = "POST";
-  //     form.enctype = "multipart/form-data";
-  //     form.action = "https://yandex.com/images/search";
-
-  //     const input = document.createElement("input");
-  //     input.type = "file";
-  //     input.name = "upfile";
-  //     input.files = imageInput.files;
-
-  //     form.appendChild(input);
-
-  //     // Append to body and submit
-  //     document.body.appendChild(form);
-  //     form.submit();
-  //   }
-  // });
 });
+
