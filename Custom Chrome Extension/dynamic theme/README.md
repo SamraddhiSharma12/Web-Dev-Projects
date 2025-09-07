@@ -25,9 +25,10 @@ A **custom Chrome extension** that gives your browser a refreshing look with:
 
 1. Clone this repository:  
 
-Open Google Chrome and go to:
 
-arduino
+    Open Google Chrome and go to:
+
+
 2.Copy code
 
 3.Search bar: chrome://extensions/
