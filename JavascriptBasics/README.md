@@ -1,4 +1,4 @@
-# 🚀 JavaScript Projects Showcase
+# 🚀 JavaScript Projects
 
 Welcome to my collection of **JavaScript projects**!  
 These projects highlight my journey of learning and building with **HTML, CSS, and JavaScript**, while exploring real-world concepts like **API integration, DOM manipulation, event handling, and UI/UX design**.  
