@@ -13,7 +13,7 @@ These projects highlight my journey of learning and building with **HTML, CSS, a
 - A clean and simple note-taking application.  
 - Supports **create, save, delete, and persistent storage** with `localStorage`.  
 - Perfect for quick thoughts and to-do lists.  
-🔗 [Live Demo](#)
+🔗 [Live Demo](#https://samraddhisharma12.github.io/Web-Dev-Projects/JavascriptBasics/CreateNotes/)
 
 ---
 
