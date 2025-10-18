@@ -13,7 +13,7 @@ Code Metric is a web application that analyzes your **LeetCode progress**
 
 ## 🖼️ Preview
 
-![Code Metric Preview](https://github.com/SamraddhiSharma12/Web-Dev-Projects/blob/main/CodeMetric/CodeMetricIMG.png)
+![Code Metric Preview](https://github.com/SamraddhiSharma12/Web-Dev-Projects/blob/main/Code%20Metric/CodeMetricIMG.png)
 
 
   
