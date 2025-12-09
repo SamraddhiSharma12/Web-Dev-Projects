@@ -21,7 +21,7 @@ These projects highlight my journey of learning and building with **HTML, CSS, a
 - Fun quiz app with **real-time scoring and feedback**.  
 - Uses JavaScript functions, data structures, and event handling.  
 - Great demonstration of **logic-based programming**.  
-🔗 [Live Demo](#https://samraddhisharma12.github.io/Web-Dev-Projects/JavascriptBasics/quizApp/) 
+🔗 [Live Demo](https://samraddhisharma12.github.io/Web-Dev-Projects/JavascriptBasics/quizApp/) 
 
 ---
 
@@ -29,7 +29,7 @@ These projects highlight my journey of learning and building with **HTML, CSS, a
 - A reusable **toast-style notification system**.  
 - Displays **temporary alerts/confirmations** with auto-dismiss.  
 - Styled for modern UI/UX and can be plugged into any app.  
-🔗 [Live Demo](#https://samraddhisharma12.github.io/Web-Dev-Projects/JavascriptBasics/NotificationToaster/)
+🔗 [Live Demo](https://samraddhisharma12.github.io/Web-Dev-Projects/JavascriptBasics/NotificationToaster/)
 
 ---
 
@@ -37,7 +37,7 @@ These projects highlight my journey of learning and building with **HTML, CSS, a
 - Fetches fun facts from the **Useless Facts API**.  
 - Uses `fetch`, `async/await`, and error handling.  
 - Delivers a new interesting fact with each click.  
-🔗 [Live Demo](#https://samraddhisharma12.github.io/Web-Dev-Projects/JavascriptBasics/FactsGenerator/)
+🔗 [Live Demo](https://samraddhisharma12.github.io/Web-Dev-Projects/JavascriptBasics/FactsGenerator/)
 
 ---
 
@@ -45,7 +45,7 @@ These projects highlight my journey of learning and building with **HTML, CSS, a
 - Explore and search images using the **Unsplash API**.  
 - Features **keyword search, pagination, and responsive grid layout**.  
 - Demonstrates API requests, async programming, and UI rendering.  
-🔗 [Live Demo](#https://samraddhisharma12.github.io/Web-Dev-Projects/JavascriptBasics/ImageGenerator/) 
+🔗 [Live Demo](https://samraddhisharma12.github.io/Web-Dev-Projects/JavascriptBasics/ImageGenerator/) 
 
 ---
 
@@ -53,7 +53,7 @@ These projects highlight my journey of learning and building with **HTML, CSS, a
 - A responsive **navigation bar** with click-to-toggle menus.  
 - Works seamlessly on desktop and mobile.  
 - Highlights **event handling** and **responsive design**.  
-🔗 [Live Demo](#https://samraddhisharma12.github.io/Web-Dev-Projects/JavascriptBasics/onclicknavbar/)
+🔗 [Live Demo](https://samraddhisharma12.github.io/Web-Dev-Projects/JavascriptBasics/onclicknavbar/)
 
 ---
 
@@ -61,7 +61,7 @@ These projects highlight my journey of learning and building with **HTML, CSS, a
 - Switch between different backgrounds or themes.  
 - Demonstrates **CSS–JavaScript integration** and DOM updates.  
 - Can be expanded into **dark mode/light mode toggle**.  
-🔗 [Live Demo](#https://samraddhisharma12.github.io/Web-Dev-Projects/JavascriptBasicsbackgroundChanger/)
+🔗 [Live Demo](https://samraddhisharma12.github.io/Web-Dev-Projects/JavascriptBasicsbackgroundChanger/)
 
 ---
 
@@ -69,7 +69,7 @@ These projects highlight my journey of learning and building with **HTML, CSS, a
 - Interactive **form submission with popup modal**.  
 - Focuses on **modal handling, overlays, and user feedback**.  
 - Enhances user experience in simple web forms.  
-🔗 [Live Demo](#https://samraddhisharma12.github.io/Web-Dev-Projects/JavascriptBasics/ThankyouPopup/) 
+🔗 [Live Demo](https://samraddhisharma12.github.io/Web-Dev-Projects/JavascriptBasics/ThankyouPopup/) 
 ---
 
 ## 🛠️ Tech Stack
