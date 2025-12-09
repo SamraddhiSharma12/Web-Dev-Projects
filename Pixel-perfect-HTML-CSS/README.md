@@ -5,5 +5,6 @@ This section invites readers to dive into a world of creativity, inspiration, an
 ## screenshot
 ![screenshot of browser](/Pixel-perfect-HTML-CSS/Blogscreenshot.png)
 
+# Study Sync 
 ## screenshot
 ![screenshot of browser](/Pixel-perfect-HTML-CSS/studySync-SS.png)
