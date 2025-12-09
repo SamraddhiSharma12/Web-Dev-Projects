@@ -1,0 +1,80 @@
+.travel-journal{
+    box-sizing: border-box;
+  
+}
+body{
+     font-family: Inter;
+}
+.img-container img{
+   height:300px;
+   width:300px;
+   object-fit: cover;
+   float: left;
+   padding-top: 40px;
+   border-radius: 15px;
+}
+ .marker-img {
+    width: 20px;
+    padding: 35px 10px;
+    display: flex;
+    
+    
+}
+.marker-name-link {
+  display: flex;
+  align-items: center;
+  gap: 0px;
+  
+} 
+ .country-name-j {
+    margin-top: 7px;
+    display: flex;
+    justify-content: center;
+    padding-right: 10px;
+    font-size: 1.0rem;
+    font-weight: 600;
+    text-transform: uppercase;
+} 
+.info-container {
+  padding: 10px 20px;
+}
+.info-container a{
+    color: #2B283A;
+    font-size: 0.9rem;
+    padding-top: 10px;
+    transition: color 0.3s;
+}
+.info-container a:visited {
+    color: #918E9B;
+}
+.info-container a:hover {
+  color: #0056b3;
+}
+.place-name{
+    display: flex;
+   
+    padding-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 1px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-weight: 1000;
+}
+.trip-dates{
+  display: flex;
+  padding-left: 20px;
+  padding-bottom: 15px;
+}
+.place-info{
+    padding-inline-start: 20px;
+    line-height: 1.6;
+    text-align: left;
+   
+    font-size: 0.9rem;
+    /* display: -webkit-box; */
+    -webkit-box-orient: vertical;
+    /* -webkit-line-clamp: 3; */
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
