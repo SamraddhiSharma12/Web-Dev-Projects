@@ -1,0 +1,179 @@
+body {
+    font-family:'Times New Roman', Times, serif; 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    background-color: #f4f4f4; 
+}
+
+/* Header styling */
+header {
+    background-color: #FFB347; 
+    color: white; 
+    padding: 1em; 
+    text-align: center; 
+}
+
+/* Navigation styling */
+nav ul {
+    list-style-type: none; /* Remove bullet points from list */
+    padding: 0; 
+    display: flex; 
+    justify-content: center; 
+    background-color: #87CEFA; 
+}
+
+nav ul li {
+    margin: 0 10px; /* Add horizontal margin between items */
+}
+
+nav ul li a {
+    color: white; 
+    text-decoration: none; /* Remove underline from links */
+    padding: 14px 20px;
+    display: block; 
+}
+
+nav ul li a:hover {
+    background-color: #9418fd; 
+}
+
+/* Main container styling */
+.container {
+    padding: 20px; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+/* Registration form styling */
+#register {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; /* Stack children vertically */
+    background-color: white; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 20px; 
+}
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 15px; 
+    width: 100%; 
+}
+
+.form-group label {
+    display: block; /* Make label block-level element */
+    margin-bottom: 5px; /* Add margin below label */
+}
+
+.form-group input, .form-group select {
+    width: 100%; /* Make input and select elements full width */
+    padding: 8px; 
+    box-sizing: border-box; /* Include padding in total width */
+}
+
+/* Button styling */
+button {
+    background-color:#FFC312; 
+    font-size: 15px;
+    color: white; 
+    padding: 10px 15px; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 7px; 
+}
+
+button:hover {
+    background-color:#9418fd ; /* Change background color on hover */
+}
+
+/* Dashboard styling for hackathons */
+.hackathon-dashboard {
+    display: flex; 
+    flex-wrap: wrap; /* Allow items to wrap to next line */
+    gap: 10px; 
+    justify-content: flex-start; 
+}
+
+/* Individual hackathon card styling */
+.hackathon-card {
+    width: calc(33.333% - 10px); /* Set width to one-third with margin consideration */
+    box-sizing: border-box; 
+    margin-bottom: 10px; 
+    border-radius: 5px; 
+    background-color: #f9f9f9; 
+    padding: 1.75rem; 
+    border: 1px solid #ccc;
+}
+
+.hackathon-card h3 {
+    margin-top: 0; 
+}
+
+.hackathon-card .status {
+    font-weight: bold; 
+}
+
+/* Button styling within the hackathon card */
+.edit-btn, .delete-btn {
+    margin-right: 5px; 
+}
+
+/* Calendar container styling */
+#calendar-container {
+    background-color: white; 
+    padding: 2rem; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 20px; 
+    overflow: hidden; /* Hide overflow content */
+}
+
+/* Calendar styling */
+#calendar {
+    width: 100%; 
+    box-sizing: border-box; 
+    overflow: auto; /* Allow overflow content to scroll */
+}
+
+/* Media query for tablets */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px; /* Reduce padding for smaller screens */
+    }
+
+    .hackathon-card {
+        width: calc(50% - 10px); /* Set card width to half */
+    }
+
+    button {
+        width: 100%; /* Make buttons full width */
+        margin-top: 10px; /* Add top margin to buttons */
+    }
+
+    #calendar {
+        width: 100%; /* Make calendar full width */
+    }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+    nav ul {
+        flex-direction: column; /* Stack nav items vertically */
+    }
+
+    nav ul li {
+        margin: 5px 0; /* Add vertical margin between nav items */
+    }
+
+    .hackathon-card {
+        width: 100%; /* Make cards full width */
+    }
+
+    #calendar {
+        width: 100%; /* Make calendar full width */
+    }
+}

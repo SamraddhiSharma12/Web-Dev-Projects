@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+body{
+    background:#bbc6fa;
+}
+.small-container{
+    background: #fff;
+    width:700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 10px 20px 0px rgba(0, 0, 0, 0.15);
+}
+.small-container h2{
+    font-size: 32px;
+    margin-bottom: 40px;
+    position: relative;
+}
+.small-container h2::after{
+    content: '';
+    width: 75px;
+    height: 3px;
+    border-radius: 3px;
+    background: rgb(23, 124, 229);
+    position: absolute;
+    bottom: -10px;
+    left:50%;
+    transform: translate(-50%);
+}
+.small-container blockquote{
+    font-size: 26px;
+    min-height: 110px;
+}
+.small-container blockquote::before, .small-container blockquote::after{
+   content: '"';
+}
+.small-container span{
+    display: block;
+    margin-top:10px ;
+    float: right;
+    position: relative;
+}
+.small-container span::before{
+    content: '';
+    width: 20px;
+    height: 2px;
+    background: rgb(23, 124, 229);
+    position: absolute;
+    top: 50%;
+    left: -30px;
+}
+.small-container div{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.small-container button{
+    background: rgb(23, 124, 224);
+    color: #fff;
+    border-radius:25px;
+    border:1px solid rgb(23, 124, 224) ;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    cursor: pointer;
+}
+.small-container button img{
+    width: 20px;
+    margin-right: 10px;
+}
+.small-container button:nth-child(2){
+    background: transparent;
+    color: #333;
+    border: 1px solid black;
+}

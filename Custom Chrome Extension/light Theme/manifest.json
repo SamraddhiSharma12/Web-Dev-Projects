@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Mountain Theme",
+  "version": "1.0",
+  "theme": {
+    "colors": {
+      "frame": [230, 245, 255], 
+      "toolbar": [240, 250, 255], 
+      "tab_text": [20, 40, 70],      
+      "tab_background_text": [50, 80, 110], 
+      "bookmark_text": [30, 60, 90],
+      "ntp_text": [15, 35, 65],      
+      "ntp_link": [0, 102, 204],     
+      "ntp_section": [240, 250, 255]
+    },
+    "images": {
+      "theme_ntp_background": "mountain.png"
+    },
+    "properties": {
+      "ntp_background_alignment": "center",
+      "ntp_background_repeat": "no-repeat"
+    }
+  }
+}
